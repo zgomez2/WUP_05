@@ -1,2 +1,2 @@
 # final2019
-I intend to make five separate markdown files.  Each will deal with a separate subpopulation.
+I changed my mind - Im gonna put everything in one big rmd file
