@@ -8,14 +8,14 @@ output: html_document
 ```{r include=FALSE,echo=FALSE}
 require(tidyverse)
 require(tigerstats)
-avast <-read.csv(file="avastivironal.csv",header=TRUE)
+triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 ```
 
 # Introduction
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
-A new  preventative aides (abacavirinol) is under test in clinical trials. Analyze the effectiveness of this drug across the board. Consider population subgroups by gender, drug use, and sexual orientation. Finish this!
+A new  preventative aides (triUmpsal) is under test in clinical trials. Analyze the effectiveness of this drug across the board. Consider population subgroups by gender, drug use, and sexual orientation. Finish this!
 
 # Methods
 
