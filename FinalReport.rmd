@@ -37,7 +37,7 @@ barchartGC(~infected+ treatment,data=mydataF)
 barchartGC(~infected+ treatment,data=mydataF, type="percent")
 
 ```
-
+On the second graph to the left 60 %  of the women  took the drug and 40 % percent of the women  took the placebo .50 % of the women have aids ,only 40% of women who had aids look the placebo .The placebo is causing 20 % of women to get aids .The first visual is telling us that the placebo is not working for women ,it's actually contradictory because it's not actually helping them take the drug it makes it worse for the women .It works better for men then for the women .
 ### Numerical Descriptive Results
 
 ```{r}
@@ -46,7 +46,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-
+The women who got aids 58% of them took the drug and 41 % got the placebo .Nothing happened and the results seems to be equal .It all adds up to 100%.
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
