@@ -37,7 +37,9 @@ barchartGC(~infected+ treatment,data=mydataF)
 barchartGC(~infected+ treatment,data=mydataF, type="percent")
 
 ```
-On the second graph to the left 60 %  of the women  took the drug and 40 % percent of the women  took the placebo .50 % of the women have aids ,only 40% of women who had aids look the placebo .The placebo is causing 20 % of women to get aids .The first visual is telling us that the placebo is not working for women ,it's actually contradictory because it's not actually helping them take the drug it makes it worse for the women .It works better for men then for the women .
+
+On the second graph to the left 60 %  of the women  took the drug and 40 % percent of the women  took the placebo .50 % of the women have aids ,only 40% of women who had aids look the placebo .The placebo is causing 20 % of women to get aids .The first visual is telling us that the placebo is not working for women ,it's actually  contradictory  because it's not actually helping them take the drug it makes it worse for the women .It works better for men then for the women .
+
 ### Numerical Descriptive Results
 
 ```{r}
@@ -46,7 +48,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The women who got aids 58% of them took the drug and 41 % got the placebo .Nothing happened and the results seems to be equal .It all adds up to 100%.
+The women who got aids 58% of them took the drug and 41 % got the placebo .Nothing happened and the results seems to be equal .It all adds up to 100%.48% of women who donot have aids who took the drug and 51% who tok the plaebo got the same number 100% and nothing happned to them .
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
@@ -58,8 +60,8 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-The odds of getting aids when taking the drug is 1 1/2 times more likely than not taking the drug .
+The odds of getting aids when taking the drug is  1/2  to 1 of getting aids if you are a women unlikely .The chances of to get the results that we observed is .0000768 a low number .We got 210 compared to  147 but they we were expecting to get 172 and 184 .The odds you getting aid if your a women and take the drug the odds are 1.24 to 1.94 .
 
 # Discussion and Conclusion
-
+I concluded that the placebo does not help and the women have a higher chance of getting aids if they take the drug then if they don't take the drug .It's actually reversing to what it's suppose to do .The chances of getting aids when taking the drug is .0000768 if you are a women .The chances of getting aids is relatively low .
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
